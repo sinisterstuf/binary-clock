@@ -28,7 +28,6 @@ char *int2bin(int a, char *buffer, int buf_size) {
     return buffer;
 }
 
-//TODO: find out why this outputs 6 (00110) instead of 24 (11000)
 void setup() {
     // initialize the pins as output and set all to LOW
     for(int i = 0; i < NUM_LEDS; i++) {
