@@ -7,10 +7,10 @@ typedef struct {
 } led;
 
 // FUNCTION DEFS
-char *int2bin(int, char*, int);
+char* int2bin(int, char*, int);
 
 // converts an integer number into a string of 0s and 1s
-char *int2bin(int a, char *buffer, int buf_size) {
+char* int2bin(int a, char *buffer, int buf_size) {
     int i = 0; // for the for loop
     buffer += (buf_size - 1);
 
